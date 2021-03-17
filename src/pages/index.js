@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import floatingIMG from "../images/Floating-burger-transparent-background-PNG.png"
+import floatingIMG from "../images/hamburger-cheeseburger-veggie-burger-fast-food-burguer-d02a8de84e0ede0b8987bbe0f866487d.png"
 
 
 function IndexPage() {

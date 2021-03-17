@@ -1,3 +1,10 @@
 body {
   font-family: 'syne-mono';
+  background-image: url('../images/hamburger-cheeseburger-veggie-burger-fast-food-burguer-d02a8de84e0ede0b8987bbe0f866487d.png');
+  background-position: center 50%;
 }
+
+/* .bgImage{
+  background-image: url('../images/hamburger-cheeseburger-veggie-burger-fast-food-burguer-d02a8de84e0ede0b8987bbe0f866487d.png');
+  background-position: center 50%;
+} */
