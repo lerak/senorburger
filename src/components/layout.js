@@ -5,24 +5,24 @@ import Header from "./header";
 
 function Layout({ children }) {
   return (
-    <div className="flex flex-col min-h-screen font-sans text-gray-900">
+    <div className="flex flex-col min-h-screen font-sans text-gray-900 bg-black">
       <Header />
 
       <main className="flex-1 w-full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16">
         {children}
       </main>
 
-      <footer className="bg-blue-700">
+      <footer className="border-t-4 border-white ">
         <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
           <p className="text-white">
             Created by{` `}
             <a
               className="font-bold no-underline"
-              href="https://bryant.io"
+              href="https://nextdigital.com.mx"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Taylor Bryant
+              NextDigital
             </a>
           </p>
 
@@ -33,7 +33,7 @@ function Layout({ children }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
+              Location
             </a>
           </p>
         </nav>
