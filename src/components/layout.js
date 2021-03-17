@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-
+import "@fontsource/syne-mono" 
 import Header from "./header";
 
 function Layout({ children }) {
