@@ -6,7 +6,7 @@ function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
   
   return (
-    <header className="bg-black items-center flex flex-wrap justify-between border-b-4 border-white  " >
+    <header className="bg-black items-center flex flex-wrap justify-between border-b-4 border-yellow-500  " >
       <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
           <Link to="/" >
             <h1 className="flex items-center text-white no-underline">

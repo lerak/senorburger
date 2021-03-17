@@ -12,7 +12,7 @@ function Layout({ children }) {
         {children}
       </main>
 
-      <footer className="border-t-4 border-white ">
+      <footer className="border-t-4 border-yellow-500 bg-black ">
         <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
           <p className="text-white">
             Created by{` `}
