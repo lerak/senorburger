@@ -18,7 +18,8 @@ function IndexPage() {
         </section>
        <section className=" col-span-2">
         <h2 className="text-3xl text-yellow-500">Senor burrrrrrr</h2>
-        <p className="text-white font-SyneMono">Nuestro menú es una combinación de sabores ya que usamos los mejores ingredientes para deleitarte.</p> <p>Nuestra carne es escogida y preparada diariamente</p>
+        <p className="text-white font-SyneMono">Nuestro menú es una combinación de sabores ya que usamos los mejores ingredientes para deleitarte.</p> <p className="text-white font-SyneMono">Nuestra carne es escogida y preparada diariamente</p>
+        <p className="text-white font-SyneMono">Para no perder ese toque de frescura que nos caracteriza, una fusión de estilo europeo y mexicano</p>
         <button className="bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-4 rounded">
           Our Menu
           Button
