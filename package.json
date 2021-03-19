@@ -5,7 +5,12 @@
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
     "@fontsource/syne-mono": "^4.2.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "gatsby": "2.25.1",
+    "gatsby-plugin-fontawesome-css": "^1.1.0",
     "gatsby-plugin-manifest": "2.8.0",
     "gatsby-plugin-offline": "3.7.1",
     "gatsby-plugin-postcss": "3.3.0",
