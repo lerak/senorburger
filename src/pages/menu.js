@@ -10,22 +10,27 @@ function MenuPage() {
     <Layout>
       <SEO />
       <div>
-        {/* <div className="grid grid-cols-4 text-white">
-          <div className="1">Hamburguesas</div>
-          <div className="2">Extras</div>
-          <div className="3">Refrescos</div>
-          <div className="4">4</div>
-        </div> */}
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+        <div>
+          <h1 className="font-SyneMono text-8xl  text-center text-yellow-500">Burgers</h1>
+        </div>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        <div>
+          <h1 className="font-SyneMono text-8xl  text-center text-yellow-500">Extras</h1>
+        </div>
+          <Card />
+          <Card />
+          <Card />
+        <div>
+          <h1 className="font-SyneMono text-8xl  text-center text-yellow-500">Refrescos</h1>
+        </div>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
       </div>
     </Layout>
   )
