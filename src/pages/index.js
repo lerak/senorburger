@@ -9,7 +9,7 @@ function IndexPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`señor burger`, `burger playa del carmen`, `hamburguesa playa del carmen`]}
         title="Home"
       />
       <div className="grid gap-4">

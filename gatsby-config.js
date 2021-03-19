@@ -5,8 +5,8 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
+    title: `Señor Burger | Hamburguesas Artesnales`,
+    description: `Ricas Hamburguesas Artesenales`,
     author: `@taylorbryant`,
   },
   plugins: [
