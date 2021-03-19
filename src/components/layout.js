@@ -11,6 +11,8 @@ import {
   
 } from '@fortawesome/free-brands-svg-icons'
 
+import location from '../images/locaties.png'
+
 function Layout({ children }) {
   return (
     <div className=" flex flex-col min-h-screen font-sans text-gray-900 bg-gray-900">
@@ -22,6 +24,9 @@ function Layout({ children }) {
 
       <footer className="border-t-4 border-yellow-500 bg-black ">
         <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
+        <div>
+            <img className="w-32 h-48" src={location} alt=""/>
+          </div>
           <div className="text-white">
             <h3>Contacto</h3>
             <p>Tel. 9841776607</p>
@@ -46,7 +51,7 @@ function Layout({ children }) {
             </ul>
           </p>
         </nav>
-        <div className="text-white text-center">Desarrollado por <a href="https://nextdigital.com.mx">NextDigital.com.mx</a></div>
+        <div className="text-gray-700 text-center">Desarrollado por <a href="https://nextdigital.com.mx">NextDigital.com.mx</a></div>
       </footer>
     </div>
   );

@@ -9,13 +9,13 @@ function MenuPage() {
   return(
     <Layout>
       <SEO />
-      <div>
+      {/* <div>
         <div className="grid grid-cols-4 text-white">
           <div className="1">Hamburguesas</div>
           <div className="2">Extras</div>
           <div className="3">Refrescos</div>
           <div className="4">4</div>
-        </div>
+        </div> */}
       <Card />
       <Card />
       <Card />
