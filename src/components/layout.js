@@ -27,12 +27,7 @@ function Layout({ children }) {
         <div className="self-center">
             <a href="https://goo.gl/maps/ANUdiKU2Bjqt8XR89" rel="nofollow"><img className="w-32 h-48" src={location} alt="Location"/></a>
           </div>
-          <div className="text-white self-center">
-            <h3>Contacto</h3>
-            <p>Tel. 9841776607</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-3 text-white self-center">
+         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 text-white self-center">
             <div><a href="https://www.facebook.com/SenorBurgers" rel="nofollow"><FontAwesomeIcon icon={faFacebook} size="3x" /></a></div>
             <div><a href="https://www.instagram.com/senorburgers" rel="nofollow"><FontAwesomeIcon icon={faInstagram} size="3x" /></a></div>
             <div><a href="https://www.tripadvisor.com/Restaurant_Review-g150812-d23165679-Reviews-Senor_Burger-Playa_del_Carmen_Yucatan_Peninsula.html?m=19905" rel="nofollow"><FontAwesomeIcon icon={faTripadvisor} size="3x" /></a></div>
