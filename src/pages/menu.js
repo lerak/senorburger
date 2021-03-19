@@ -11,7 +11,7 @@ function MenuPage() {
       <SEO />
       <div>
         <div>
-          <h1 className="font-SyneMono text-8xl  text-center text-yellow-500">Burgers</h1>
+          <h1 className="font-SyneMono text-7xl md:text-8xl  text-center text-yellow-500">Burgers</h1>
         </div>
           <Card />
           <Card />
@@ -19,13 +19,13 @@ function MenuPage() {
           <Card />
           <Card />
         <div>
-          <h1 className="font-SyneMono text-8xl  text-center text-yellow-500">Extras</h1>
+          <h1 className="font-SyneMono text-7xl md:text-8xl  text-center text-yellow-500">Extras</h1>
         </div>
           <Card />
           <Card />
           <Card />
         <div>
-          <h1 className="font-SyneMono text-8xl  text-center text-yellow-500">Refrescos</h1>
+          <h1 className="font-SyneMono text-7xl md:text-8xl  text-center text-yellow-500">Refrescos</h1>
         </div>
           <Card />
           <Card />
