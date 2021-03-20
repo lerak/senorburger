@@ -6,7 +6,7 @@ import floatingIMG from "../images/food-truck-commercial-vehicle-car-barbecue-va
 import illustration from "../images/frontpage/ilustration.png"
 import burger  from "../images/frontpage/hamburger-cheeseburger-slider-french-fries-hot-dog-burger-39e6cb9006fab1a7beec639e5a0f976c.png"
 import fries from "../images/frontpage/hamburger-french-fries-doughnut-fast-food-pizza-hd-fries-bd0ee40b5af8bd3514f0d6531658b4f5.png"
-import gourmet from "../images/frontpage/gourmet-burgers-08dc989379929b29507ccff42c583bc0.png"
+
 function IndexPage() {
   return (
     <Layout>

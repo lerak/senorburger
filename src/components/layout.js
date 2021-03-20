@@ -13,7 +13,7 @@ import {
 
 import location from '../images/locaties.png'
 
-import Whatsapp from './whatsapp'
+import Messenger from './messenger'
 
 function Layout({ children }) {
   return (
@@ -50,7 +50,7 @@ function Layout({ children }) {
         </nav>
         <div className="text-gray-700 text-center">Desarrollado por <a href="https://nextdigital.com.mx">NextDigital.com.mx</a></div>
       </footer>
-      <Whatsapp />
+      <Messenger />
     </div>
   );
 }
