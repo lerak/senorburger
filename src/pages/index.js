@@ -44,15 +44,6 @@ function IndexPage() {
               </div>
             </div>
           </div>
-          <div className="w-full sm:w-1/3 h-32 md:h-48 mb-4 sm:mb-0 px-2">
-          <img className="block w-full h-full bg-grey-dark bg-no-repeat bg-center bg-cover" src={gourmet} alt=""/>
-          </div>
-          <div className="w-full sm:w-1/3 h-32 md:h-48 mb-4 sm:mb-0 px-2">
-          <img className="block w-full h-full bg-grey-dark bg-no-repeat bg-center bg-cover" src={gourmet} alt=""/>
-          </div>
-          <div className="w-full sm:w-1/3 h-32 md:h-48 px-2">
-          <img className="block w-full h-full bg-grey-dark bg-no-repeat bg-center bg-cover" src={gourmet} alt=""/>
-          </div>
         </div>
       </div>
        </section>
