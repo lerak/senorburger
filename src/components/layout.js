@@ -13,6 +13,8 @@ import {
 
 import location from '../images/locaties.png'
 
+import Whatsapp from './whatsapp'
+
 function Layout({ children }) {
   return (
     <div className=" flex flex-col min-h-screen font-sans text-gray-900 bg-gray-900">
@@ -48,6 +50,7 @@ function Layout({ children }) {
         </nav>
         <div className="text-gray-700 text-center">Desarrollado por <a href="https://nextdigital.com.mx">NextDigital.com.mx</a></div>
       </footer>
+      <Whatsapp />
     </div>
   );
 }
