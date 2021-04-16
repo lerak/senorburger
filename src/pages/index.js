@@ -18,9 +18,7 @@ function IndexPage() {
           <img src={floatingIMG} alt=""/>
         </section>
        <section className=" col-span-2">
-        <h2 className="mb-5 text-3xl text-yellow-500 font-SyneMono">Que hacemos es sencillo, que hacemos son hamburguesas artesanales.</h2>
-        <p className="text-white">Nuestro menú es una combinación de sabores ya que usamos los mejores ingredientes para deleitarte.</p> <p className="text-white">Nuestra carne es escogida y preparada diariamente</p>
-        <p className="text-white  mb-10">Para no perder ese toque de frescura que nos caracteriza, una fusión de estilo europeo y mexicano</p>
+        <h2 className="mb-5 text-3xl text-yellow-500 font-SyneMono">Que hacemos es sencillo, son hamburguesas artesanales.</h2>
         <p className="text-white">Nuestro menú es una combinación de sabores ya que usamos los mejores ingredientes para deleitarte.</p> <p className="text-white">Nuestra carne es escogida y preparada diariamente</p>
         <p className="text-white  mb-10">Para no perder ese toque de frescura que nos caracteriza, una fusión de estilo europeo y mexicano</p>
         <Link to="/menu" className="mt-10 self-center bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-4 rounded" >
