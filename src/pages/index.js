@@ -2,10 +2,8 @@ import React from "react";
 import {Link} from "gatsby"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import floatingIMG from "../images/food-truck-commercial-vehicle-car-barbecue-van-foodtruck-d8567dbea05b2233cae696c9fc884b21.png"
-import illustration from "../images/frontpage/ilustration.png"
-import burger  from "../images/frontpage/hamburger-cheeseburger-slider-french-fries-hot-dog-burger-39e6cb9006fab1a7beec639e5a0f976c.png"
-import fries from "../images/frontpage/hamburger-french-fries-doughnut-fast-food-pizza-hd-fries-bd0ee40b5af8bd3514f0d6531658b4f5.png"
+import floatingIMG from "../images/BURGERBAR_campagne-website_BURGER_01.png"
+import cow from "../images/BURGERBAR_cow-02.png"
 
 function IndexPage() {
   return (
@@ -20,7 +18,9 @@ function IndexPage() {
         </section>
        <section className=" col-span-2">
         <h2 className="mb-5 text-3xl text-yellow-500 font-SyneMono">Que hacemos es sencillo, que hacemos son hamburguesas artesanales.</h2>
-        <p className="text-white">Nuestro menú es una combinación de sabores ya que usamos los mejores ingredientes para deleitarte.</p> <p classNameNameNameName="text-white font-SyneMono">Nuestra carne es escogida y preparada diariamente</p>
+        <p className="text-white">Nuestro menú es una combinación de sabores ya que usamos los mejores ingredientes para deleitarte.</p> <p className="text-white">Nuestra carne es escogida y preparada diariamente</p>
+        <p className="text-white  mb-10">Para no perder ese toque de frescura que nos caracteriza, una fusión de estilo europeo y mexicano</p>
+        <p className="text-white">Nuestro menú es una combinación de sabores ya que usamos los mejores ingredientes para deleitarte.</p> <p className="text-white">Nuestra carne es escogida y preparada diariamente</p>
         <p className="text-white  mb-10">Para no perder ese toque de frescura que nos caracteriza, una fusión de estilo europeo y mexicano</p>
         <Link to="/menu" className="mt-10 self-center bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-4 rounded" >
           Nuestro Menu
@@ -29,24 +29,17 @@ function IndexPage() {
 
 
        <section>
-       <div className="container mx-auto p-8">
-        <div className="flex flex-row flex-wrap ">
-          <div className="w-full md:w-1/2 h-64 md:h-auto mb-4 px-2">
-            <img className="block w-full h-full bg-grey-dark bg-no-repeat bg-center bg-cover" src={illustration} alt=""/>
-          </div>
-          <div className="w-full md:w-1/2 mb-4 px-2">
-            <div className="flex flex-col sm:flex-row md:flex-col -mx-2">
-              <div className="w-full sm:w-1/2 md:w-full h-48 xl:h-64 mb-4 sm:mb-0 md:mb-4 px-2">
-              <img className="block w-full h-full bg-grey-dark bg-no-repeat bg-center bg-cover" src={burger} alt=""/>
-              </div>
-              <div className="w-full sm:w-1/2 md:w-full h-48 xl:h-64 px-2">
-              <img className="block w-full h-full bg-grey-dark bg-no-repeat bg-center bg-cover" src={fries} alt=""/>
-              </div>
-            </div>
-          </div>
+       <div className="col-span-1">
+        <img src={cow} />
         </div>
-      </div>
        </section>
+       <section className=" col-span-2 text-2xl">
+        <p className="text-gray-300">Comenzando con los ingredientes naturales más frescos, comienza su experiencia Señor Burger.</p> <p className="text-white">Bollos de hamburguesa horneados localmente, lechuga crujiente, rúcula, tomate y pepinillos en la hamburguesa que elijas</p>
+        <p className="text-white">Las hamburguesas se preparan individualmente a pedido y se cocinan mientras espera.</p><p className="text-white"> Con solo sal marina molida y pimienta negra agregada a su hamburguesa, mientras está chisporroteando sobre la plancha.</p>
+        
+       </section>
+       Comenzando con los ingredientes naturales más frescos, comienza su experiencia Burgerbar. Bollos de hamburguesa horneados localmente, lechuga iceberg crujiente, rúcula, tomate y pepinillos en la hamburguesa que elijas
+
       </div>
     </Layout>
   );
