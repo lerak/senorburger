@@ -1,5 +1,5 @@
 import React from 'react'
-import delacasa from '../images/Chips-Burger.png'
+import delacasa from '../images/BURGERBAR_campagne-website_BURGER_01.png'
 
 
 function Card(){
