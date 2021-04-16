@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import floatingIMG from "../images/BURGERBAR_campagne-website_BURGER_01.png"
 import cow from "../images/BURGERBAR_cow-02.png"
+import exampleburger from "../images/frontpage/gourmet-burgers-08dc989379929b29507ccff42c583bc0.png"
 
 function IndexPage() {
   return (
@@ -41,6 +42,11 @@ function IndexPage() {
        Comenzando con los ingredientes naturales más frescos, comienza su experiencia Burgerbar. Bollos de hamburguesa horneados localmente, lechuga iceberg crujiente, rúcula, tomate y pepinillos en la hamburguesa que elijas
 
       </div>
+      <section className="grid grid-cols-3 gap-4">
+        <div className="text-white"><img src={exampleburger} alt=""/></div>
+        <div className="text-white"><img src={exampleburger} alt=""/></div>
+        <div className="text-white"><img src={exampleburger} alt=""/></div>
+      </section>
     </Layout>
   );
 }
