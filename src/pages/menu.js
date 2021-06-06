@@ -14,7 +14,7 @@ function MenuPage() {
       <SEO />
       <div>
         <div>
-          <h1 className="font-SyneMono text-7xl md:text-8xl  text-center text-yellow-500">Burgers</h1>
+          <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Burgers</h1>
         </div>
         <div className="text-white">
         * <ul>
@@ -29,18 +29,18 @@ function MenuPage() {
           <Card image={burger} title="Ocean Burger" description="Carne con tocino, lechuga, jitomate, cebolla asada y queso azul, acompañada de papas" price="100"/>
           <Card image={burger} title="De La Casa" description="Carne con tocino, lechuga, jitomate, champiñones y piña, acompañada de papas" price="95"/>
           <div>
-          <h1 className="font-SyneMono text-7xl md:text-8xl  text-center text-yellow-500">Extras</h1>
+          <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Extras</h1>
         </div>
           <Card title="Extra tocino"  price="10"/>
-          <Card title="Extra champinones" price="10"/>
+          <Card title="Extra champiñones" price="10"/>
           <Card title="Extra cebolla asada" price="10" />
         <div>
-          <h1 className="font-SyneMono text-7xl md:text-8xl  text-center text-yellow-500">Papas</h1>
+          <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Papas</h1>
         </div>
           <Card image={fries} title="Papas a la Francesa" description="Porcion de papas" price="40"/>
           <Card image={fries} title="Papas a la Francesa con Queso" description="porcion de papas con queso amarillo" price="50"/>
         <div>
-          <h1 className="font-SyneMono text-7xl md:text-8xl  text-center text-yellow-500">Refrescos</h1>
+          <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Refrescos</h1>
         </div>
           <Card image={soda} title="Coca Cola" price="18"/>
           <Card image={soda} title="Agua de Tamarindo" price="18"/>

@@ -39,8 +39,8 @@ function Layout({ children }) {
           <p>
             <h3 className="font-bold text-white text-3xl">Horario</h3>
             <ul className="text-gray-400 text-2xl">
-              <li>14:00 - 23:00</li>
-              <li>Cerrado</li>
+              <li>Lunes 14:00 - 23:00</li>
+              <li>Martes Cerrado</li>
               <li>Miercoles 14:00 - 23:00</li>
               <li>Jueves 14:00 - 23:00</li>
               <li>Sabado 14:00 - 23:00</li>
