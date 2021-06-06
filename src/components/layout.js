@@ -28,6 +28,7 @@ function Layout({ children }) {
         <nav className="flex flex-wrap items-stretch justify-between max-w-2xl md:max-w-4xl p-4 mx-auto text-sm md:p-8">
         <div className="self-center">
             <a href="https://goo.gl/maps/ANUdiKU2Bjqt8XR89" rel="nofollow"><img className="w-32 h-48" src={location} alt="Location"/></a>
+            <p className="text-white">Av. Solidaridad entre </p><p className="text-white">Av Misión del Carmen</p><p className="text-white"> local 6</p>
           </div>
          <div className="grid grid-cols-1 md:grid-cols-4 gap-3 text-white self-center">
             <div><a href="https://www.facebook.com/SenorBurgers" rel="nofollow"><FontAwesomeIcon icon={faFacebook} size="3x" /></a></div>
@@ -48,7 +49,7 @@ function Layout({ children }) {
             </ul>
           </p>
         </nav>
-        <div className="text-gray-700 text-center">Desarrollado por <a href="https://nextdigital.com.mx">NextDigital.com.mx</a></div>
+        <div className="text-1xl text-gray-900 text-center">Desarrollado por <a href="https://nextdigital.com.mx">NextDigital.com.mx</a></div>
       </footer>
       <Messenger />
     </div>
