@@ -16,12 +16,7 @@ function MenuPage() {
         <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Burgers</h1>
         </div>
-        <div className="text-white">
-        * <ul>
-            <li>Pan Brioche</li>
-            <li>Cambia la Lechuga por Arugula tiene un costo de $5 </li>
-          </ul> 
-        </div>
+    
           <Card image={burger} title="Playa Burger" description="Carne con tocino, lechuga, jitomate y queso, acompañada de papas " price={70}/>
           <Card image={burger} title="Coral Burger" description="Carne con tocino, lechuga, jitomate, queso y cebolla asada, acompañada de papas" price="75"/>
           <Card image={burger} title="Manglar Burger" description="Carne con tocino, lechuga, jitomate, queso y champiñones, acompañada de papas" price="80"/>
@@ -31,6 +26,7 @@ function MenuPage() {
           <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Extras</h1>
         </div>
+          <Card title="Cambia la Lechuga por Arugula" price="5"/>
           <Card title="Extra tocino"  price="10"/>
           <Card title="Extra champiñones" price="10"/>
           <Card title="Extra cebolla asada" price="10" />
