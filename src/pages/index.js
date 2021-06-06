@@ -19,8 +19,8 @@ function IndexPage() {
         </section>
        <section className=" col-span-2">
         <h2 className="mb-5 text-3xl text-yellow-500 font-SyneMono">Que hacemos es sencillo, son hamburguesas artesanales.</h2>
-        <p className="text-white">Nuestro menú es una combinación de sabores ya que usamos los mejores ingredientes para deleitarte.</p> <p className="text-white">Nuestra carne es escogida y preparada diariamente</p>
-        <p className="text-white  mb-10">Para no perder ese toque de frescura que nos caracteriza, una fusión de estilo europeo y mexicano</p>
+        <p className="text-white font-SyneMono">Nuestro menú es una combinación de sabores ya que usamos los mejores ingredientes para deleitarte.</p> <p className="text-white">Nuestra carne es escogida y preparada diariamente</p>
+        <p className="text-white  mb-10 font-SyneMono">Para no perder ese toque de frescura que nos caracteriza, una fusión de estilo europeo y mexicano</p>
         <Link to="/menu" className="mt-10 self-center bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-4 rounded" >
           Nuestro Menu
         </Link>
@@ -32,7 +32,7 @@ function IndexPage() {
         <img src={cow} />
         </div>
        </section>
-       <section className=" col-span-2 text-2xl">
+       <section className=" col-span-2 text-1xl font-SyneMono">
         <p className="text-gray-300">Comenzando con los ingredientes naturales más frescos, comienza su experiencia Señor Burger.</p> <p className="text-white">Bollos de hamburguesa horneados localmente, lechuga crujiente, rúcula, tomate y pepinillos en la hamburguesa que elijas</p>
         <p className="text-white">Las hamburguesas se preparan individualmente a pedido y se cocinan mientras espera.</p><p className="text-white"> Con solo sal marina molida y pimienta negra agregada a su hamburguesa, mientras está chisporroteando sobre la plancha.</p>
         
