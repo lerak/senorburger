@@ -16,17 +16,17 @@ function MenuPage() {
         <div>
           <h1 className="font-SyneMono text-7xl md:text-8xl  text-center text-yellow-500">Burgers</h1>
         </div>
-          <Card image={burger} title="Playa Burger" description="Carne con tocino, lechuga, jitomate y queso, acompañados con papas " price={70}/>
-          <Card image={burger} title="Coral Burger" description="Carne con tocino, lechuga, jitomate, queso y cebolla asada, acompañados con papas" price="75"/>
-          <Card image={burger} title="Manglar Burger" description="Carne con tocino, lechuga, jitomate, queso y champiñones, acompañados con papas" price="80"/>
-          <Card image={burger} title="Hawaiiana Burger" description="Carne con tocino, lechuga, jitomate,  queso, jamonon y piña, acompañados con papas" price="85"/>
-          <Card image={burger} title="Ocean Burger" description="Carne con tocino, lechuga, jitomate, cebolla asada y queso azul, acompañados con papas" price="100"/>
-          <Card image={burger} title="De La Casa" description="Carne con tocino, lechuga, jitomate, champiñones y piña, acompañados con papas" price="95"/>
+          <Card image={burger} title="Playa Burger" description="Carne con tocino, lechuga, jitomate y queso, acompañada de papas " price={70}/>
+          <Card image={burger} title="Coral Burger" description="Carne con tocino, lechuga, jitomate, queso y cebolla asada, acompañada de papas" price="75"/>
+          <Card image={burger} title="Manglar Burger" description="Carne con tocino, lechuga, jitomate, queso y champiñones, acompañada de papas" price="80"/>
+          <Card image={burger} title="Hawaiiana Burger" description="Carne con tocino, lechuga, jitomate,  queso, jamonon y piña, acompañada de papas" price="85"/>
+          <Card image={burger} title="Ocean Burger" description="Carne con tocino, lechuga, jitomate, cebolla asada y queso azul, acompañada de papas" price="100"/>
+          <Card image={burger} title="De La Casa" description="Carne con tocino, lechuga, jitomate, champiñones y piña, acompañada de papas" price="95"/>
         <div>
           <h1 className="font-SyneMono text-7xl md:text-8xl  text-center text-yellow-500">Papas</h1>
         </div>
-          <Card image={fries} title="Papas frito" description="Portion de papas" price="40"/>
-          <Card image={fries} title="Papas con Queso" description="portion de papas con queso amarillo" price="50"/>
+          <Card image={fries} title="Papas a la Francesa" description="Porcion de papas" price="40"/>
+          <Card image={fries} title="Papas a la Francesa con Queso" description="porcion de papas con queso amarillo" price="50"/>
         <div>
           <h1 className="font-SyneMono text-7xl md:text-8xl  text-center text-yellow-500">Refrescos</h1>
         </div>
