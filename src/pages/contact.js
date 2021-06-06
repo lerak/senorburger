@@ -11,7 +11,7 @@ function ContactPage() {
         title="Contact"
       />
       <section>
-        <form method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true">
           <label
             className="block mb-2 text-xs font-bold uppercase"
             htmlFor="first-name"
