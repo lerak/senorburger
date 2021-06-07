@@ -24,7 +24,7 @@ function MenuPage() {
           <Card image={burger} title="Ocean Burger" description="Carne, tocino, lechuga, jitomate, cebolla asada y queso azul, acompañada de papas" price="100"/>
           <Card image={burger} title="De La Casa" description="Carne, tocino, lechuga, jitomate, queso, champiñones y piña, acompañada de papas" price="95"/>
           <Card image={burger} title="Nohoch" description="Doble carne ,tocino, lechuga, jitomate, queso y cebolla asada, acompañada de papas" price="110" />
-          <Card image={burger} title="Selva" description="Carne, tocino, lechuga, jitomate, queso y guacamole" price="95" />
+          <Card image={burger} title="Selva" description="Carne, tocino, lechuga, jitomate, queso y guacamole, acompañada de papas" price="95" />
           <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Extras</h1>
         </div>
