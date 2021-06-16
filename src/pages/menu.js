@@ -40,7 +40,7 @@ function MenuPage() {
         <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Refrescos</h1>
         </div>
-          <Card image={soda} title="Coca Cola" price="18"/>
+          <Card image={soda} title="Coca Cola" price="20"/>
           <Card image={soda} title="Agua de Limon" price="18"/>
           <Card image={soda} title="Agua de Jamaica" price="18"/>
       </div>
