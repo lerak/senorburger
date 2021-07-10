@@ -40,11 +40,12 @@ function Layout({ children }) {
           <p>
             <h3 className="font-bold text-white text-3xl">Horario</h3>
             <ul className="text-gray-400 text-2xl">
-              <li>Lunes 14:00 - 23:00</li>
+              <li>Lunes 16:00 - 23:00</li>
               <li>Martes Cerrado</li>
               <li>Miercoles 14:00 - 23:00</li>
-              <li>Jueves 14:00 - 23:00</li>
-              <li>Sabado 14:00 - 23:00</li>
+              <li>Jueves 16:00 - 23:00</li>
+              <li>Viernes 16:00 - 23:00</li>
+              <li>Sabado 16:00 - 23:00</li>
               <li>Domingo 14:00 - 23:00</li> 
             </ul>
           </p>
