@@ -42,7 +42,7 @@ function Layout({ children }) {
             <ul className="text-gray-400 text-2xl">
               <li>Lunes 16:00 - 23:00</li>
               <li>Martes Cerrado</li>
-              <li>Miercoles 14:00 - 23:00</li>
+              <li>Miercoles 16:00 - 23:00</li>
               <li>Jueves 16:00 - 23:00</li>
               <li>Viernes 16:00 - 23:00</li>
               <li>Sabado 16:00 - 23:00</li>
