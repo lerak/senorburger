@@ -28,7 +28,7 @@ function MenuPage() {
           <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Extras</h1>
         </div>
-          <Card title="Extra Carne" price="50"/>
+          <Card title="Extra Carne" price="40"/>
           <Card title="Cambia la Lechuga por Arugula" price="15"/>
           <Card title="Extra tocino"  price="25"/>
           <Card title="Extra champiñones" price="10"/>
