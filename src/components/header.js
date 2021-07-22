@@ -2,6 +2,8 @@ import {Link } from "gatsby";
 import React, { useState } from "react";
 import logo from '../images/logo.png';
 
+
+
 function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
   
@@ -40,7 +42,7 @@ function Header() {
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
           </svg>
         </button>
-
+         
         <nav
           className={`${
             isExpanded ? `block` : `hidden`

@@ -33,6 +33,7 @@ function MenuPage() {
           <Card title="Extra tocino"  price="25"/>
           <Card title="Extra champiñones" price="10"/>
           <Card title="Extra cebolla asada" price="10" />
+          <Card title="Extra Queso Americano" price="10" />
         <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Papas</h1>
         </div>
