@@ -17,14 +17,14 @@ function MenuPage() {
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Burgers</h1>
         </div>
     
-          <Card image={burger} title="Playa" description="Carne, tocino, lechuga, jitomate y queso, acompañada de papas " price="80"/>
-          <Card image={burger} title="Coral" description="Carne, tocino, lechuga, jitomate, queso y cebolla asada, acompañada de papas" price="85"/>
-          <Card image={burger} title="Manglar" description="Carne, tocino, lechuga, jitomate, queso y champiñones, acompañada de papas" price="85"/>
-          <Card image={burger} title="Hawaiiana" description="Carne, tocino, lechuga, jitomate,  queso, jamon y piña, acompañada de papas" price="95"/>
-          <Card image={burger} title="Ocean" description="Carne, tocino, lechuga, jitomate, cebolla asada y queso azul, acompañada de papas" price="110"/>
-          <Card image={burger} title="De La Casa" description="Carne, tocino, lechuga, jitomate, queso, champiñones y piña, acompañada de papas" price="95"/>
-          <Card image={burger} title="Nohoch" description="Doble carne ,tocino, lechuga, jitomate, queso y cebolla asada, acompañada de papas" price="130" />
-          <Card image={burger} title="Selva" description="Carne, tocino, lechuga, jitomate, queso y guacamole, acompañada de papas" price="95" />
+          <Card image={burger} title="Playa" description="180gr de carne, tocino, lechuga, jitomate y queso, acompañada de papas " price="80"/>
+          <Card image={burger} title="Coral" description="180gr de carne, tocino, lechuga, jitomate, queso y cebolla asada, acompañada de papas" price="85"/>
+          <Card image={burger} title="Manglar" description="180 de carne, tocino, lechuga, jitomate, queso y champiñones, acompañada de papas" price="85"/>
+          <Card image={burger} title="Hawaiiana" description="180gr de carne, tocino, lechuga, jitomate,  queso, jamon y piña, acompañada de papas" price="95"/>
+          <Card image={burger} title="Ocean" description="180gr de carne, tocino, lechuga, jitomate, cebolla asada y queso azul, acompañada de papas" price="110"/>
+          <Card image={burger} title="De La Casa" description="180gr de carne, tocino, lechuga, jitomate, queso, champiñones y piña, acompañada de papas" price="95"/>
+          <Card image={burger} title="Nohoch" description="2 carnes de 180gr, doble tocino, lechuga, jitomate, queso y cebolla asada, acompañada de papas" price="130" />
+          <Card image={burger} title="Selva" description="180gr de carne, tocino, lechuga, jitomate, queso y guacamole, acompañada de papas" price="95" />
           <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Extras</h1>
         </div>
