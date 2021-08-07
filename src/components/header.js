@@ -16,9 +16,9 @@ function Header() {
       <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
           <Link to="/" >
             <h1 className="flex items-center text-white no-underline">
-              <img className="w-20" src={logo} />
-              <span className="text-xl font-bold tracking-tight">
-                Señor Burger
+              <img className=" w-20 " src={logo} />
+              <span className="text-l font-bold tracking-tight">
+                
               </span>
             </h1>
           </Link>
