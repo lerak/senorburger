@@ -23,11 +23,7 @@ function Header() {
             </h1>
           </Link>
           </div>
-          <div className="flex flex-wrap align-center justify-center max-w-4xl p-4 mx-auto md:p-8">
-      <button className="bg-transparent hover:bg-yellow-200 text-yellow-500 font-semibold hover:text-white py-2 px-4 border border-yellow-500 hover:border-transparent rounded">
-        <a href="tel:9841864986"><FontAwesomeIcon icon={faPhoneSquare} size="1x" /><em>  984 186 4986</em></a> 
-          </button>
-      </div>
+          
       <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
         {/* <Link to="/">
           <h1 className="flex items-center text-white no-underline">
@@ -37,7 +33,10 @@ function Header() {
             </span>
           </h1>
         </Link> */}
-
+          <button className="mr-4 bg-transparent hover:bg-yellow-200 text-yellow-500 font-semibold hover:text-white py-2 px-4 border border-yellow-500 hover:border-transparent rounded">
+        <a href="tel:9841864986"><FontAwesomeIcon icon={faPhoneSquare} size="1x" /><em>  984 186 4986</em></a> 
+          </button>
+      
         <button
           className="items-center block px-3 py-2 text-white border border-white rounded md:hidden"
           onClick={() => toggleExpansion(!isExpanded)}
