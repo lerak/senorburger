@@ -1,7 +1,11 @@
 import {Link } from "gatsby";
 import React, { useState } from "react";
 import logo from '../images/logo.png';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faPhoneSquare
+  
+} from '@fortawesome/free-solid-svg-icons'
 
 
 function Header() {
@@ -71,6 +75,11 @@ function Header() {
             </Link>
           ))}
         </nav>
+      </div>
+      <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
+      <button className="bg-transparent hover:bg-yellow-200 text-yellow-500 font-semibold hover:text-white py-2 px-4 border border-yellow-500 hover:border-transparent rounded">
+        <a href="tel:9841864986"><FontAwesomeIcon icon={faPhoneSquare} size="1x" /><em>  984 186 4986</em></a> 
+          </button>
       </div>
     </header>
   );
