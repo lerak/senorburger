@@ -28,6 +28,8 @@ function Layout({ children }) {
       <footer className="border-t-4 border-yellow-500 bg-black ">
         <nav className="flex flex-wrap items-stretch justify-between max-w-2xl md:max-w-4xl p-4 mx-auto text-sm md:p-8">
         <div className="self-center">
+        <h3 className="font-bold text-white text-2xl">Contacto</h3>
+            <hr  className="mb-4"/>
             <a href="https://goo.gl/maps/ANUdiKU2Bjqt8XR89" rel="nofollow"><img className="w-32 h-48" src={location} alt="Location"/></a>
             <p className="text-white">Av. Solidaridad entre </p><p className="text-white">Av Misión del Carmen</p><p className="text-white"> local 6</p>
             <p className="text-white"><a href="tel:9841864986">tel. 984 186 4986</a></p>
@@ -41,8 +43,9 @@ function Layout({ children }) {
           </div>
 
           <p>
-            <h3 className="font-bold text-white text-3xl">Horario</h3>
-            <ul className="text-gray-400 text-2xl">
+            <h3 className="font-bold text-white text-2xl">Horario</h3>
+            <hr className="mb-4" />
+            <ul className="text-gray-400 text-1xl">
               <li>Lunes 16:00 - 23:00</li>
               <li>Martes Cerrado</li>
               <li>Miercoles 16:00 - 23:00</li>
