@@ -49,9 +49,9 @@ function MenuPage() {
           <Card image={soda} title="Agua de Jamaica" price="20"/>
           <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Combos</h1>
-          <Card title="Combo Individual" description="1 Playa Burger con papas y 1 refresco" price="95"/>
-          <Card title="Combo Pareja" description="2 Playa burgers con papas y 2 refrescos" price="185"/>
-          <Card title="Combo Familiar" description="4 Playa burgers con papas y 4 refrescos" price="365"/>
+          <Card title="Combo Individual" description="1 Playa Burger con papas y 1 refresco" price="100"/>
+          <Card title="Combo Pareja" description="2 Playa burgers con papas y 2 refrescos" price="195"/>
+          <Card title="Combo Familiar" description="4 Playa burgers con papas y 4 refrescos" price="385"/>
         </div>
       </div>
         
