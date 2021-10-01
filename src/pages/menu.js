@@ -33,13 +33,14 @@ function MenuPage() {
           <Card title="Extra champiñones" price="10"/>
           <Card title="Extra cebolla asada" price="10" />
           <Card title="Extra Queso Americano" price="10" />
+          <Card title="Extra Aguacate" price="20" />
         <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Papas</h1>
         </div>
           <Card image={fries} title="Papas a la Francesa" description="Porcion de papas" price="45"/>
           <Card image={fries} title="Papas a la Francesa con Queso" description="porcion de papas con queso amarillo" price="50"/>
         <div>
-          <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Refrescos</h1>
+          <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Bebidas</h1>
         </div>
           <Card image={soda} title="Coca Cola" price="25"/>
           <Card image={soda} title="Coca Cola Zero" price="25" />
