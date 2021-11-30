@@ -19,8 +19,8 @@ function MenuPage() {
           <Card image={burger} title="Smash Burger" description="80gr  carne, lechuga, jitomate y  queso" price="65"/>
           <Card image={burger} title="Double Smash" description="doble carne 200gr total, lechuga, jitomate, tocino, queso y cebolla asada, acompañada de papas" price="125" />
           <Card image={burger} title="Playa" description="180gr de carne, tocino, lechuga, jitomate y queso, acompañada de papas" price="90"/>
-          <Card image={burger} title="Coral" description="180gr de carne, tocino, lechuga, jitomate, queso y cebolla asada, acompañada de papas" price="95"/>
-          <Card image={burger} title="Manglar" description="180 de carne, tocino, lechuga, jitomate, queso y champiñones, acompañada de papas" price="95"/>
+          <Card image={burger} title="Coral" description="180gr de carne, tocino, lechuga, jitomate, queso y cebolla asada, acompañada de papas" price="100"/>
+          <Card image={burger} title="Manglar" description="180 de carne, tocino, lechuga, jitomate, queso y champiñones, acompañada de papas" price="100"/>
           <Card image={burger} title="Hawaiiana" description="180gr de carne, tocino, lechuga, jitomate,  queso, jamon y piña, acompañada de papas" price="110"/>
           <Card image={burger} title="Ocean" description="180gr de carne, tocino, lechuga, jitomate, cebolla asada y queso azul, acompañada de papas" price="130"/>
           <Card image={burger} title="De La Casa" description="180gr de carne, tocino, lechuga, jitomate, queso, champiñones y piña, acompañada de papas" price="110"/>
