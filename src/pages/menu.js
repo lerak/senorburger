@@ -57,6 +57,11 @@ function MenuPage() {
           <Card title="Combo Pareja" description="2 Playa burgers con papas y 2 refrescos" price="210"/>
           <Card title="Combo Familiar" description="4 Playa burgers con papas y 4 refrescos" price="410"/>
         </div>
+        <div>
+          <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Postres</h1>
+          <Card title="Pay de Zarzamora" price="30" />
+          <Card title="Pay de Piña" price="30" />
+        </div>
       </div>
         
     </Layout>
