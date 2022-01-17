@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Card from '../components/card'
 import burger from '../images/BURGERBAR_campagne-website_BURGER_01.png'
+// import burger1 from '../images/[removal.ai]_tmp-61e2f0791a6e6.png'
 import fries from '../images/fries.png'
 import soda from '../images/soda.png'
 // import burger from '../images/hamburger-cheeseburger-veggie-burger-fast-food-burguer-d02a8de84e0ede0b8987bbe0f866487d.png'
@@ -45,6 +46,9 @@ function MenuPage() {
           <Card image={soda} title="Coca Cola" price="25"/>
           <Card image={soda} title="Coca Cola Zero" price="25" />
           <Card image={soda} title="Mundet" price="25" /> 
+          <Card image={soda} title="Naranja & Nada" price="25" />
+          <Card image={soda} title="Agua Natural" price="20" />
+          <Card image={soda} title="Agua Mineral" price="20" />
           {/* <Card image={soda} title="Agua de Limon" price="20"/>
           <Card image={soda} title="Agua de Jamaica" price="20"/> */}
           <div>

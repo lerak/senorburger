@@ -5,7 +5,7 @@ import SEO from "../components/seo";
 import floatingIMG from "../images/BURGERBAR_campagne-website_BURGER_01.png"
 import cow from "../images/BURGERBAR_cow-02.png"
 import exampleburger from "../images/frontpage/gourmet-burgers-08dc989379929b29507ccff42c583bc0.png"
-
+// import burgers from "../images/rsz_img_3762 copy_preview_rev_1.png"
 function IndexPage() {
   return (
     <Layout>
