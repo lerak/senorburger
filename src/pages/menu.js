@@ -43,19 +43,19 @@ function MenuPage() {
         <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Bebidas</h1>
         </div>
-          <Card image={soda} title="Coca Cola" price="25"/>
-          <Card image={soda} title="Coca Cola Zero" price="25" />
-          <Card image={soda} title="Mundet" price="25" /> 
-          <Card image={soda} title="Naranja & Nada" price="25" />
+          <Card image={soda} title="Coca Cola" price="30"/>
+          <Card image={soda} title="Coca Cola Zero" price="30" />
+          <Card image={soda} title="Mundet" price="30" /> 
+          <Card image={soda} title="Naranja & Nada" price="30" />
           <Card image={soda} title="Agua Natural" price="20" />
           <Card image={soda} title="Agua Mineral" price="20" />
-          {/* <Card image={soda} title="Agua de Limon" price="20"/>
-          <Card image={soda} title="Agua de Jamaica" price="20"/> */}
+          <Card image={soda} title="Agua de Limon" price="25"/>
+          <Card image={soda} title="Agua de Jamaica" price="25"/>
           <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Combos</h1>
-          <Card title="Combo Individual" description="1 Playa Burger con papas y 1 refresco" price="110"/>
-          <Card title="Combo Pareja" description="2 Playa burgers con papas y 2 refrescos" price="210"/>
-          <Card title="Combo Familiar" description="4 Playa burgers con papas y 4 refrescos" price="410"/>
+          <Card title="Combo Individual" description="1 Playa Burger con papas y 1 refresco" price="115"/>
+          <Card title="Combo Pareja" description="2 Playa burgers con papas y 2 refrescos" price="220"/>
+          <Card title="Combo Familiar" description="4 Playa burgers con papas y 4 refrescos" price="430"/>
         </div>
         <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Postres</h1>
