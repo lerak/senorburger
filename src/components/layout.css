@@ -8,3 +8,7 @@ body {
   background-image: url('../images/hamburger-cheeseburger-veggie-burger-fast-food-burguer-d02a8de84e0ede0b8987bbe0f866487d.png');
   background-position: center 50%;
 } */
+
+.drop-shadow-2xl{
+  filter: drop-shadow(0 25px 25px rgba(187, 233, 22, 0.253));
+}

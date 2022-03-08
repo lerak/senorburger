@@ -14,3 +14,7 @@
   background: url(https://cocky-easley-84069c.netlify.app/static/hamburger-cheeseburger-veggie-burger-fast-food-burguer-d02a8de84e0ede0b8987bbe0f866487d-df53869f670660b506d000ea6658f41f.png) 0 0 repeat;
   transform: rotate(30deg);
 }
+
+.mt-10{
+  margin-top: 4rem;
+}

@@ -14,7 +14,7 @@ import {
 
 import location from '../images/locaties.png'
 
-import Messenger from './messenger'
+//import Messenger from './messenger'
 
 function Layout({ children }) {
   return (
@@ -57,7 +57,6 @@ function Layout({ children }) {
           </p>
         </nav>
       </footer>
-      <Messenger />
     </div>
   );
 }

@@ -2,9 +2,11 @@ import React from "react";
 import {Link} from "gatsby"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import floatingIMG from "../images/BURGERBAR_campagne-website_BURGER_01.png"
+import floatingIMG from "../images/rsz_1img_3737.jpg"
+//import floatingIMG from "../images/BURGERBAR_campagne-website_BURGER_01.png"
 import cow from "../images/BURGERBAR_cow-02.png"
-import exampleburger from "../images/frontpage/gourmet-burgers-08dc989379929b29507ccff42c583bc0.png"
+//import exampleburger from "../images/frontpage/gourmet-burgers-08dc989379929b29507ccff42c583bc0.png"
+import burgersjoint from "../images/frontpage/rsz_img_3762 copy.jpg"
 // import burgers from "../images/rsz_img_3762 copy_preview_rev_1.png"
 function IndexPage() {
   return (
@@ -14,8 +16,8 @@ function IndexPage() {
         title="Home"
       />
       <div className="container grid gap-4">
-        <section className=" col-span-1">
-          <img src={floatingIMG} alt=""/>
+        <section className="flex justify-center drop-shadow-2xl">
+          <img className="border-2 border-gray-700 " src={floatingIMG} alt=""/>
         </section>
        <section className=" col-span-2">
         <h2 className="mb-5 text-3xl text-yellow-500 font-SyneMono">Que hacemos es sencillo, son hamburguesas artesanales.</h2>
@@ -40,10 +42,8 @@ function IndexPage() {
        Comenzando con los ingredientes naturales más frescos, comienza su experiencia Burgerbar. Bollos de hamburguesa horneados localmente, lechuga iceberg crujiente, rúcula, tomate y pepinillos en la hamburguesa que elijas
 
       </div>
-      <section className="grid grid-cols-3 gap-4">
-        <div className="text-white"><img src={exampleburger} alt=""/></div>
-        <div className="text-white"><img src={exampleburger} alt=""/></div>
-        <div className="text-white"><img src={exampleburger} alt=""/></div>
+      <section className="grid grid-cols-1 gap-4">
+        <div className="text-white"><img className="border-2 border-gray-700" src={burgersjoint} alt=""/></div>
       </section>
     </Layout>
   );
