@@ -16,6 +16,7 @@ import smash from "../images/burgers/smash.jpg"
 import casa from "../images/burgers/casa.jpg"
 import fries from '../images/fries.png'
 import soda from '../images/soda.png'
+import dedo from '../images/dedo.jpeg'
 import burger from '../images/hamburger-cheeseburger-veggie-burger-fast-food-burguer-d02a8de84e0ede0b8987bbe0f866487d.png'
 import "./menu.css"
 function MenuPage() {
@@ -24,6 +25,10 @@ function MenuPage() {
     <Layout>
       <SEO />
       <div>
+        <div>
+          <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Entradas</h1>
+        </div>
+        <Card image={dedo} title="5 Dedos de Queso" price="100"/>
         <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Burgers</h1>
         </div>
