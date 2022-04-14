@@ -9,7 +9,7 @@ function Card(props){
       <div className="z-1 overflow-visible flex items-stretch grid grid-cols-2 gap-10  text-white rounded p-5 m-5">
           <div className="1 mt-10">
             <div className="p-2">
-              <img className="hue-rotate-180 border-2 border-gray-700  object-cover"src={props.image} alt=""/>
+              <img className="border-2 border-gray-700  object-cover"src={props.image} alt=""/>
             </div>
           </div>
           <div className="c2 self-center ">
@@ -18,7 +18,7 @@ function Card(props){
             </div>
             <p className="mb-5 font-SyneMono text-yellow-500 text-1xl md:text-2xl">{props.description}</p>
             <p className="font-SyneMono text-yellow-500 text-1xl md:text-2xl">{props.descriptionEN}</p>
-            <div className="self-center text-white text-3xl md:text-5xl">${props.price}</div> 
+            <div className="self-center text-white text-1xl md:text-2xl">{props.price}</div> 
           </div>
       </div>
     </div>
