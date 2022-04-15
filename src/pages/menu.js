@@ -65,9 +65,10 @@ function MenuPage() {
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Extras</h1>
         </div>
           <Card image={burger} title="Extra tocino"  price="25"/>
-          <Card image={burger} title="Extra champiñones" price="10"/>
-          <Card image={burger} title="Extra cebolla asada" price="10" />
-          <Card image={burger} title="Extra Cebolla cruda" price="10" />
+          <Card image={burger} title="Extra champiñones" price="20"/>
+          <Card image={burger} title="Extra cebolla asada" price="15" />
+          <Card image={burger} title="Extra Cebolla cruda" price="15" />
+          <Card image={burger} title="Extra Piña" price="20" />
           <Card image={burger} title="Extra Queso Americano" price="10" />
           <Card image={burger} title="Extra Aguacate" price="20" />
           <Card image={burger} title="Orden de Guacamole" price="50" />
