@@ -17,7 +17,7 @@ function Card(props){
               <h4 className=" text-2xl md:text-3xl  font-SyneMono text-white">{props.title}</h4>
             </div>
             <p className="mb-5 font-SyneMono text-yellow-500 text-1xl md:text-2xl">{props.description}</p>
-            <p className="font-SyneMono text-yellow-500 text-1xl md:text-2xl">{props.descriptionEN}</p>
+            <p className="font-SyneMono text-yellow-200 text-1xl md:text-2xl">{props.descriptionEN}</p>
             <div className="self-center text-white text-1xl md:text-2xl">{props.price}</div> 
           </div>
       </div>
