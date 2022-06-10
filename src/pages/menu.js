@@ -88,6 +88,7 @@ function MenuPage() {
           <Card image={soda} title="Coca Cola" price="30"/>
           <Card image={soda} title="Coca Cola Zero" price="30" />
           <Card image={soda} title="Mundet" price="30" /> 
+          <Card image={soda} title="Peñafiel Limon" price="30" />
           <Card image={soda} title="Agua Natural" price="25" />
           <Card image={soda} title="Agua Mineral" price="25" />
           <Card image={soda} title="Agua de Limon" price="25"/>
