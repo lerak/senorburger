@@ -18,6 +18,7 @@ import fries from '../images/fries.png'
 import soda from '../images/soda.png'
 import dedo from '../images/dedo.jpeg'
 import burger from '../images/hamburger-cheeseburger-veggie-burger-fast-food-burguer-d02a8de84e0ede0b8987bbe0f866487d.png'
+import hotdog from '../images/hotdog1.jpeg'
 import "./menu.css"
 function MenuPage() {
   
@@ -62,6 +63,10 @@ function MenuPage() {
           <Card image={selva} title="Selva" description="La Selva una hamburguesa de 180 gramos de carne 100% de res de la región sobre un pan Brioche fresco  con mayonesa, lechuga, tomate, queso, tocino y guacamole, acompañada de papas fritas.
 " descriptionEN="Selva a 180 gram beef patty with regional 100% ground beef on a freshly baked Brioche bun with mayonaise, lettuce, tomato, cheese, bacon and guacamole, accompanied by french fries." price="135" />
           <div>
+          <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Hotdogs</h1>
+          </div>
+           <Card image={hotdog} title="Hotdog del chef" description="Salchicha Kraukauer con cebolla frita, cebolla fresca y Sweet Relish y mostaza acompañado de papas fritas" descriptionEN="Kraukauer Sausage with Fried Onion, Fresh Onion and Sweet Relish and Mustard Accompanied by French Fries."price="100" />
+           <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Extras</h1>
         </div>
           <Card image={burger} title="Extra tocino"  price="25"/>
