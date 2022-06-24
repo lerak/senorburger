@@ -5,18 +5,19 @@ import Card from '../components/card'
 //import burger from '../images/BURGERBAR_campagne-website_BURGER_01.png'
 //import burger from '../images/rsz_img_3716.jpg'
 import dobleSmash from "../images/burgers/doble_smash.jpg"
-import playa from "../images/burgers/playa.jpg"
+import playa from "../images/burgers/LA PLAYA (18)new.jpg"
 import coral from "../images/burgers/coral_big.jpg"
 import manglar from "../images/burgers/manglar.jpg"
 import ocean from "../images/burgers/ocean.jpg"
-import nohoch from "../images/burgers/nohoch_big.jpg"
+import nohoch from "../images/burgers/NOHOCH (22)new.jpg"
 import selva from "../images/burgers/selva_big.jpg"
 import hawaiiana from "../images/burgers/hawaiiana_big.jpg"
 import smash from "../images/burgers/smash.jpg"
 import casa from "../images/burgers/casa.jpg"
-import fries from '../images/fries.png'
+import fries from '../images/burgers/PAPAS FRITAS.jpg'
+import friesQ from '../images/burgers/PAPAS FRITAS CON QUESO.jpg'
 import soda from '../images/soda.png'
-import dedo from '../images/dedo.jpeg'
+import dedo from '../images/burgers/DEDOS DE QUESO (32)EDI.jpg'
 import burger from '../images/hamburger-cheeseburger-veggie-burger-fast-food-burguer-d02a8de84e0ede0b8987bbe0f866487d.png'
 import hotdog from '../images/hotdog1.jpeg'
 import "./menu.css"
@@ -62,6 +63,12 @@ function MenuPage() {
 " price="139"/>
           <Card image={selva} title="Selva" description="La Selva una hamburguesa de 180 gramos de carne 100% de res de la región sobre un pan Brioche fresco  con mayonesa, lechuga, tomate, queso, tocino y guacamole, acompañada de papas fritas.
 " descriptionEN="Selva a 180 gram beef patty with regional 100% ground beef on a freshly baked Brioche bun with mayonaise, lettuce, tomato, cheese, bacon and guacamole, accompanied by french fries." price="139" />
+ {/* <div>
+        <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Menu Infantil</h1>
+          <Card image={burger} title="Playita" description="Una hamburguesa de 140 gramos de carne 100% de res de la región sobre un pan Brioche fresco con mayonesa, lechuga, tomate, queso y tocino, acompañada de papas fritas." descriptionEN="A 140 gram beef patty with regional 100% ground beef on a freshly baked Brioche bun with mayonaise, lettuce, tomato, cheese, and bacon, accompanied by french fries." price="90"/>
+          <Card image={burger} title="Tropical" description="Una hamburguesa de 140 gramos de carne 100% de res de la región sobre un pan Brioche fresco con mayonesa, lechuga, tomate, queso, tocino y piña, acompañada de papas fritas." descriptionEN="A 140 gram beef patty with regional 100% ground beef on a freshly baked Brioche bun with mayonaise, lettuce, tomato, cheese, bacon and pinapple, accompanied by french fries." price="100"/>
+        </div> */}
+
           <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Hotdogs</h1>
           </div>
@@ -81,7 +88,7 @@ function MenuPage() {
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Papas</h1>
         </div>
           <Card image={fries} title="Papas a la Francesa" description="Porcion de papas" price="55"/>
-          <Card image={fries} title="Papas a la Francesa con Queso" description="porcion de papas con queso amarillo" price="65"/>
+          <Card image={friesQ} title="Papas a la Francesa con Queso" description="porcion de papas con queso amarillo" price="65"/>
         <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Bebidas</h1>
         </div>
@@ -90,16 +97,17 @@ function MenuPage() {
           <Card image={soda} title="Mundet" price="30" /> 
           <Card image={soda} title="Peñafiel Limon" price="30" />
           <Card image={soda} title="Agua Natural" price="25" />
-          <Card image={soda} title="Agua Mineral" price="25" />
-          <Card image={soda} title="Agua de Limon" price="25"/>
+          {/* <Card image={soda} title="Agua Mineral" price="25" /> */}
+          <Card image={soda} title="Agua de Limon con Chía" price="25"/>
           <Card image={soda} title="Agua de Jamaica" price="25"/>
           <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Combos</h1>
-          <Card image={burger} title="Combo Niños" description="1 Smash con  papas y un refresco" descriptionEN="1 Smash burger fries and one beverage" price="110" />
           <Card image={burger} title="Combo Individual" description="1 Playa Burger con papas y 1 bebida" descriptionEN="1 Playa burger with fries and 1 beverage" price="139"/>
           <Card image={burger} title="Combo Pareja" description="2 Playa burgers con papas y 2 bebidas" descriptionEN="2 Playa burgers with fries and 2 beverages" price="249"/>
           <Card image={burger} title="Combo Familiar" description="4 Playa burgers con papas y 4 bebidas" descriptionEN="4 Playa burgers with fries and 4 beverages" price="489"/>
+          {/* <Card image={burger} title="Combo Niños" description="1 Playita con  papas y un refresco" descriptionEN="1 Playita burger fries and one beverage" price="105" /> */}
         </div>
+       
         <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Postres</h1>
           <Card image={burger} title="Pay de Zarzamora" price="30" />
