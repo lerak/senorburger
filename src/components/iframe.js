@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import "./iframe.module.css"
+import "./iframe.css"
 function Iframe  ({ source }) {
 
     if (!source) {
