@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import "./Iframe.module.css"
-const Iframe = ({ source }) => {
+function Iframe  ({ source }) {
 
     if (!source) {
         return <div className="text-black text-2xl">Cargando...</div>;
