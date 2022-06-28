@@ -69,10 +69,6 @@ function Header() {
               route: `/pedidos`,
               title: `Pedidos a Domicilio`
             },
-            {
-              route: `/contact`,
-              title: `Contacto`,
-            },
           ].map((link) => (
             <Link
               className="block mt-4 text-yellow-500 hover:text-white hover:scale-75 active:text-white no-underline md:inline-block md:mt-0 md:ml-6"

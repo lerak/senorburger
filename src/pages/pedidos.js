@@ -2,7 +2,7 @@ import React from 'react'
 // import SEO from '../components/seo'
 import Header from '../components/header'
 // import Layout from '../components/layout'
-import Iframe from '../components/iframe'
+import Iframe from '../components/Iframe'
 
 import "@fontsource/syne-mono" 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -21,8 +21,9 @@ function PedidosPage(){
    
   return(
     <div>
-      <Header/>
+      <Header />
       <Iframe source="https://menu.fu.do/se%C3%B1orburger1" />
+     
      
       <footer className="border-t-4 border-yellow-500 bg-black ">
         <nav className="flex flex-wrap items-stretch justify-between max-w-2xl md:max-w-4xl p-4 mx-auto text-sm md:p-8">
@@ -56,7 +57,6 @@ function PedidosPage(){
           </p>
         </nav>
       </footer>
-     
     </div>
   
  

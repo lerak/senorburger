@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './iframe.css'
+import "./Iframe.module.css"
 const Iframe = ({ source }) => {
 
     if (!source) {
@@ -9,7 +9,7 @@ const Iframe = ({ source }) => {
 
     const src = source;     
     return (
-        <div className="frame">
+        <div className="html body div">
             <div className="frame">
                 <iframe className="frame" src={src}></iframe>
             </div>
