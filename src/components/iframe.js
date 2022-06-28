@@ -4,7 +4,7 @@ import "./Iframe.module.css"
 const Iframe = ({ source }) => {
 
     if (!source) {
-        return <div className="text-white text-2xl">Loading...</div>;
+        return <div className="text-black text-2xl">Cargando...</div>;
     }
 
     const src = source;     
