@@ -66,6 +66,10 @@ function Header() {
               title: `Menú`
             },
             {
+              route: `/pedidos`,
+              title: `Pedidos a Domicilio`
+            },
+            {
               route: `/contact`,
               title: `Contacto`,
             },
