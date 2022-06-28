@@ -2,7 +2,7 @@ import React from 'react'
 // import SEO from '../components/seo'
 import Header from '../components/header'
 // import Layout from '../components/layout'
-import Iframe from '../components/Iframe'
+import Iframe from '../components/iframe'
 
 import "@fontsource/syne-mono" 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

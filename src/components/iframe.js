@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import "./Iframe.module.css"
+import "./iframe.module.css"
 function Iframe  ({ source }) {
 
     if (!source) {
@@ -15,7 +15,7 @@ function Iframe  ({ source }) {
             </div>
         </div>
     );
-};
+}
 
 Iframe.propTypes = {
   source: PropTypes.any,
