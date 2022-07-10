@@ -14,6 +14,12 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-fontawesome-css`,
     {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: "1090711215211961",
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Señor Burger`,

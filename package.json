@@ -11,6 +11,7 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "gatsby": "2.25.1",
     "gatsby-plugin-facebook-customer-chat": "^1.0.2",
+    "gatsby-plugin-facebook-pixel": "^1.0.8",
     "gatsby-plugin-fontawesome-css": "^1.1.0",
     "gatsby-plugin-manifest": "2.8.0",
     "gatsby-plugin-offline": "3.7.1",

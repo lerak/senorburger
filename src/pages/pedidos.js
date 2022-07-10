@@ -8,7 +8,6 @@ import "@fontsource/syne-mono"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faFacebook,
-  faTripadvisor,
   faGoogle,
   faInstagram,
   faWhatsapp
@@ -36,9 +35,10 @@ function PedidosPage(){
             <button className="my-4 text-white bg-transparent font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"><a href="https://wa.me/529841864986"><FontAwesomeIcon icon={faWhatsapp} size="1x" /> Whatsapp</a></button>
           </div>
          <div className="grid grid-cols-1 md:grid-cols-4 gap-3 text-white self-center">
+            
             <div><a href="https://www.facebook.com/SenorBurgerPlayadelCarmen"><FontAwesomeIcon icon={faFacebook} size="3x" /></a></div>
             <div><a href="https://www.instagram.com/senorburgerplayadelcarmen"><FontAwesomeIcon icon={faInstagram} size="3x" /></a></div>
-            <div><a href="https://www.tripadvisor.com/Restaurant_Review-g150812-d23165679-Reviews-Senor_Burger-Playa_del_Carmen_Yucatan_Peninsula.html?m=19905"><FontAwesomeIcon icon={faTripadvisor} size="3x" /></a></div>
+            {/* <div><a href="https://www.tripadvisor.com/Restaurant_Review-g150812-d23165679-Reviews-Senor_Burger-Playa_del_Carmen_Yucatan_Peninsula.html?m=19905"><FontAwesomeIcon icon={faTripadvisor} size="3x" /></a></div> */}
             <div><a href="https://goo.gl/maps/ANUdiKU2Bjqt8XR89"><FontAwesomeIcon icon={faGoogle} size="3x" /></a></div>
           </div>
 
