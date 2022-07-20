@@ -4,22 +4,22 @@ import SEO from '../components/seo'
 import Card from '../components/card'
 //import burger from '../images/BURGERBAR_campagne-website_BURGER_01.png'
 //import burger from '../images/rsz_img_3716.jpg'
-import dobleSmash from "../images/burgers/doble_smash.jpg"
-import playa from "../images/burgers/LA PLAYA (18)new.jpg"
-import coral from "../images/burgers/coral_big.jpg"
+import dobleSmash from "../images/burgers/doblesmash.jpg"
+import playa from "../images/burgers/playa.jpg"
+import coral from "../images/burgers/coral.jpg"
 import manglar from "../images/burgers/manglar.jpg"
 import ocean from "../images/burgers/ocean.jpg"
-import nohoch from "../images/burgers/NOHOCH (22)new.jpg"
-import selva from "../images/burgers/SELVA (1)new.jpg"
-import hawaiiana from "../images/burgers/hawaiiana_big.jpg"
+import nohoch from "../images/burgers/nohoch.jpg"
+import selva from "../images/burgers/selva.jpg"
+import hawaiiana from "../images/burgers/hawaiiana.jpg"
 import smash from "../images/burgers/smash.jpg"
 import casa from "../images/burgers/casa.jpg"
-import fries from '../images/burgers/PAPAS FRITAS.jpg'
-import friesQ from '../images/burgers/PAPAS FRITAS CON QUESO.jpg'
+import fries from '../images/burgers/papas.jpg'
+import friesQ from '../images/burgers/papasQueso.jpg'
 import soda from '../images/soda.png'
-import dedo from '../images/burgers/DEDOS DE QUESO (32)EDI.jpg'
+import dedo from '../images/burgers/dedos.jpg'
 import burger from '../images/hamburger-cheeseburger-veggie-burger-fast-food-burguer-d02a8de84e0ede0b8987bbe0f866487d.png'
-import hotdog from '../images/hotdog1.jpeg'
+import hotdog from '../images/burgers/hotdog.jpg'
 import "./menu.css"
 function MenuPage() {
   
