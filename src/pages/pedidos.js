@@ -49,8 +49,8 @@ function PedidosPage(){
               <li>Lunes 16:00 - 23:00</li>
               <li>Martes Cerrado</li>
               <li>Miercoles 16:00 - 23:00</li>
-              <li>Jueves 14:00 - 23:00</li>
-              <li>Viernes 14:00 - 23:00</li>
+              <li>Jueves 16:00 - 23:00</li>
+              <li>Viernes 16:00 - 23:00</li>
               <li>Sabado 14:00 - 23:00</li>
               <li>Domingo 14:00 - 23:00</li> 
             </ul>
