@@ -6,14 +6,16 @@ import PropTypes from 'prop-types';
 function Card(props){
   return(
     <div>
-      <div className="z-1 overflow-visible flex items-stretch grid grid-cols-2 gap-10  text-white rounded p-5 m-5">
+      <div className="z-1 overflow-visible flex items-stretch grid grid-cols-1 md:grid-cols-2 gap-10  text-white rounded p-5 m-5">
+        
           <div className="1 mt-10">
             <div className="p-2">
-              <img className="border-2 border-gray-700  object-cover"src={props.image} alt=""/>
+            <h4 className="visible md:invisible text-2xl md:text-3xl  font-SyneMono text-white">{props.title}</h4>
+              <img className=" mt-5 border-2 border-gray-700  object-cover"src={props.image} alt=""/>
             </div>
           </div>
           <div className="c2 self-center ">
-            <div className="">
+            <div className="invisible md:visible">
               <h4 className=" text-2xl md:text-3xl  font-SyneMono text-white">{props.title}</h4>
             </div>
             <p className="mb-5 font-SyneMono text-yellow-500 text-1xl md:text-2xl">{props.description}</p>
