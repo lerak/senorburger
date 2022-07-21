@@ -11,7 +11,8 @@ function Card(props){
           <div className="1 mt-10">
             <div className="p-2">
             <h4 className="visible md:invisible text-2xl md:text-3xl  font-SyneMono text-white">{props.title}</h4>
-              <img className=" mt-5 border-2 border-gray-700  object-cover"src={props.image} alt=""/>
+              {props.image ? <img className="mt-5 border-2 border-gray-700  object-cover"src={props.image} alt=""/> : <p></p>} 
+              {/* <img className="mt-5 border-2 border-gray-700  object-cover"src={props.image} alt=""/> */}
             </div>
           </div>
           <div className="c2 self-center ">
