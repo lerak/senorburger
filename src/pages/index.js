@@ -2,9 +2,9 @@ import React from "react";
 import {Link} from "gatsby"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import floatingIMG from "../images/burgers/coral.jpg"
+import floatingIMG from "../images/burgers/doblesmash.jpg"
 //import floatingIMG from "../images/BURGERBAR_campagne-website_BURGER_01.png"
-import cow from "../images/BURGERBAR_cow-02.png"
+import cow from "../images/burgers/hawaiiana.jpg"
 //import exampleburger from "../images/frontpage/gourmet-burgers-08dc989379929b29507ccff42c583bc0.png"
 import burgersjoint from "../images/frontpage/rsz_img_3762 copy.jpg"
 // import burgers from "../images/rsz_img_3762 copy_preview_rev_1.png"
@@ -26,8 +26,9 @@ function IndexPage() {
         <Link to="/menu" className="mt-10 self-center bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-4 rounded" >
           Nuestro Menu
         </Link>
+        <br /><br /><br />
        </section>
-
+      
 
        <section>
        <div className="col-span-1">
