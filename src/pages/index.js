@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from "gatsby"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import floatingIMG from "../images/rsz_1img_3737.jpg"
+import floatingIMG from "../images/burgers/coral.jpg"
 //import floatingIMG from "../images/BURGERBAR_campagne-website_BURGER_01.png"
 import cow from "../images/BURGERBAR_cow-02.png"
 //import exampleburger from "../images/frontpage/gourmet-burgers-08dc989379929b29507ccff42c583bc0.png"
@@ -21,8 +21,8 @@ function IndexPage() {
         </section>
        <section className=" col-span-2">
         <h2 className="mb-5 text-3xl text-yellow-500 font-SyneMono">Que hacemos es sencillo, son hamburguesas artesanales.</h2>
-        <p className="text-white font-SyneMono">Nuestro menú es una combinación de sabores ya que usamos los mejores ingredientes para deleitarte.</p> <p className="text-white">Nuestra carne es escogida y preparada diariamente</p>
-        <p className="text-white  mb-10 font-SyneMono">Para no perder ese toque de frescura que nos caracteriza, una fusión de estilo europeo y mexicano</p>
+        <p className="text-white font-SyneMono">Nuestro día comienza con la preparación, picando ingredientes frescos.<p className="text-white">Nuestras hamburguesas están hechas a mano y hechas 100 % con carne de res con  certificado TIF de origen local de granjas de ganado en Tizimin estado de Yucatan.</p><p className="text-white">Ingredientes de origen local para apoyar a nuestra comunidad manteniendo estrictos estándares de calidad que nunca comprometen la calidad y la integridad de nuestros alimentos.</p><p className="text_white">Ponemos amor en nuestra comida y puedes saborearla.</p>
+</p><br></br><br></br>
         <Link to="/menu" className="mt-10 self-center bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-4 rounded" >
           Nuestro Menu
         </Link>
