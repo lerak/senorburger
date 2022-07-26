@@ -55,7 +55,6 @@ function Layout({ children }) {
             </ul>
           </p>
         </nav>
-        <p className="text-white">propriedad de Ioftz SAS</p>
       </footer>
     </div>
   );
