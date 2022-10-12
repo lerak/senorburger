@@ -17,11 +17,11 @@ function PromoPage() {
         </div>
         <div>
           <h2 className='font-SyneMono text-4xl md:text-4xl text-center text-white my-5'>Miércoles</h2>
-          <p className='font-SyneMono text-yellow-200 text-1xl md:t'>15% descuento en todo el Menu</p>
+          <p className='font-SyneMono text-yellow-200 text-1xl md:t'>15% descuento en todas las hamburguesas</p>
         </div>
         <div>
           <h2 className='font-SyneMono text-4xl md:text-4xl text-center text-white my-5'>Jueves</h2>
-          <p className='font-SyneMono text-yellow-200 text-1xl md:t'>En compra de 2 Playa Burgers un porcion de Dedos de queso gratis!</p>
+          <p className='font-SyneMono text-yellow-200 text-1xl md:t'>En compra de 3 Playa Burgers un porcion de Dedos de queso gratis!</p>
         </div>
       </div>
     </Layout>
