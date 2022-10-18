@@ -67,10 +67,6 @@ function Header() {
               title: `Menú`
             },
             {
-              route: `/pedidos`,
-              title: `Pedidos`
-            },
-            {
               route: `/promos`,
               title: `Promos`
             }
@@ -83,7 +79,7 @@ function Header() {
               {link.title}
             </Link>
           ))}
-        
+           <a className="block mt-4 text-yellow-500 hover:text-white hover:scale-75 active:text-white no-underline md:inline-block md:mt-0 md:ml-6" href="https://api.whatsapp.com/send?phone=529841864986&text=Hola%2C%20me%20gustaria%20hacer%20un%20pedido.">Pedidos</a>
         </nav>
       </div>
     
