@@ -17,7 +17,9 @@ function IndexPage() {
       />
       <div className="container grid gap-4">
         <section className="flex justify-center drop-shadow-2xl">
-          <img className="border-2 border-gray-700 " src={floatingIMG} alt=""/>
+        
+
+          <img className="border-2 border-gray-700 " src={floatingIMG} alt=""/> 
         </section>
        <section className=" col-span-2">
         <h2 className="mb-5 text-3xl text-yellow-500 font-SyneMono">Que hacemos es sencillo, son hamburguesas artesanales.</h2>
