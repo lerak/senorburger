@@ -67,6 +67,10 @@ function Header() {
               title: `Menú`
             },
             {
+              route: `/pedidos`,
+              title: `Pedidos`
+            },
+            {
               route: `/promos`,
               title: `Promos`
             }
@@ -79,6 +83,7 @@ function Header() {
               {link.title}
             </Link>
           ))}
+        
         </nav>
       </div>
     
