@@ -101,19 +101,20 @@ function MenuPage() {
             <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Sandwiches</h1>
             <Card image={burger} title="Sandwich Guacamaya" description="Pan Ciabatta con queso de cabra, manzana, miel maple, jamon Serrano y Arugula." price="130"/>
             <Card image={burger} title="Sandwich Pelicano" description="Pan Ciabatta con queso Mozarella, jamon Serrano y Arugula." price="125" />
+            <Card image={burger} title="Sandwich Abierto Flamingo" description="Rebenada[2] de Pan Sourdough con queso crema, Salmon y Alcapras"/>
 
             </div>
         <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Bebidas</h1>
         </div>
-          <Card image={soda} title="Coca Cola" price="30"/>
-          <Card image={soda} title="Coca Cola Zero" price="30" />
-          <Card image={soda} title="Mundet" price="30" /> 
-          <Card image={soda} title="Peñafiel Limon" price="30" />
+          <Card image={soda} title="Coca Cola" price="40"/>
+          <Card image={soda} title="Coca Cola Zero" price="40" />
+          <Card image={soda} title="Mundet" price="40" /> 
+          <Card image={soda} title="Peñafiel Limon" price="40" />
           <Card image={soda} title="Agua Natural" price="25" />
           {/* <Card image={soda} title="Agua Mineral" price="25" /> */}
-          <Card image={soda} title="Agua de Limon con Chía" price="25"/>
-          <Card image={soda} title="Agua de Jamaica" price="25"/>
+          <Card image={soda} title="Agua de Limon" price="35"/>
+          {/*<Card image={soda} title="Agua de Jamaica" price="25"/>
           {/* <div>
             <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Combos</h1>
             <Card image={burger} title="Combo Individual" description="1 Playa Burger con papas y 1 bebida" descriptionEN="1 Playa burger with fries and 1 beverage" price="149"/>
