@@ -97,13 +97,6 @@ function MenuPage() {
           <Card title="Extra Aguacate" price="20" />
           <Card title="Orden de Guacamole" price="50" />
           </div>
-          <div>
-            <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Sandwiches</h1>
-            <Card image={burger} title="Sandwich Guacamaya" description="Pan Ciabatta con queso de cabra, manzana, miel maple, jamon Serrano y Arugula." price="130"/>
-            <Card image={burger} title="Sandwich Pelicano" description="Pan Ciabatta con queso Mozarella, jamon Serrano y Arugula." price="125" />
-            <Card image={burger} title="Sandwich Abierto Flamingo" description="Rebenada[2] de Pan Sourdough con queso crema, Salmon y Alcapras" price="125"/>
-
-            </div>
         <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Bebidas</h1>
         </div>
