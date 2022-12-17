@@ -108,6 +108,7 @@ function MenuPage() {
           {/* <Card image={soda} title="Agua Mineral" price="25" /> */}
           <Card image={soda} title="Agua de Limon" price="35"/>
           <Card image={soda} title="Agua de Jamaica" price="35"/>
+          <Card image={soda} title="Mojito sin Alcohol" price="55" />
           {/* <div>
             <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Combos</h1>
             <Card image={burger} title="Combo Individual" description="1 Playa Burger con papas y 1 bebida" descriptionEN="1 Playa burger with fries and 1 beverage" price="149"/>
