@@ -97,6 +97,10 @@ function MenuPage() {
           <Card title="Extra Aguacate" price="20" />
           <Card title="Orden de Guacamole" price="50" />
           </div>
+          <div>
+            <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Carnes</h1>
+            <Card image={burger} title="Filete New York" description="Filete New york acompañado de papas fritas y Guacamole" price="259" />
+          </div>
         <div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Bebidas</h1>
         </div>
