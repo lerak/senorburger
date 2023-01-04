@@ -111,9 +111,10 @@ function MenuPage() {
           <Card image={soda} title="Peñafiel Limon" price="40" />
           <Card image={soda} title="Agua Natural" price="25" />
           {/* <Card image={soda} title="Agua Mineral" price="25" /> */}
-          <Card image={soda} title="Agua de Limon" price="35"/>
-          <Card image={soda} title="Agua de Jamaica" price="35"/>
+          <Card image={soda} title="Agua de Limon" price="45"/>
+          <Card image={soda} title="Agua de Jamaica" price="45"/>
           <Card image={soda} title="Mojito sin Alcohol" price="55" />
+          <Card image={soda} title="Cafe Americano" price="35" />
           {/* <div>
             <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Combos</h1>
             <Card image={burger} title="Combo Individual" description="1 Playa Burger con papas y 1 bebida" descriptionEN="1 Playa burger with fries and 1 beverage" price="149"/>
@@ -122,12 +123,12 @@ function MenuPage() {
           <Card image={burger} title="Combo Niños" description="1 Playita con  papas y un refresco" descriptionEN="1 Playita burger fries and one beverage" price="105" /> 
           </div> */}
        
-        <div>
+       {/*<div>
           <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Postres</h1>
           <Card image={burger} title="Pay de Zarzamora" price="30" />
           <Card image={burger} title="Pay de Piña" price="30" />
+        </div>*/}
         </div>
-      </div>
        </div> 
     </Layout>
   )
