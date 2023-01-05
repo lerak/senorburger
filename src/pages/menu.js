@@ -23,13 +23,13 @@ function MenuPage() {
       <div className=''>
         <div className="sticky top-0 z-30 w-full px-2 py-4 bg-gray-900 ">
           <div className="flex items-center space-x-1">
-            <ul className="text-1xl space-x-2 inline-flex flex-wrap text-yellow-500 hover:text-white rounded">
-              <li className="px-2 py-2 font-SyneMono"><a href="#entradas">Entradas</a></li>
-              <li className="px-2 py-2 font-SyneMono"><a href="#hamburguesas">Hamburguesas</a></li>
-              <li className="px-2 py-2 font-SyneMono"><a href="#combos">Combos</a></li>
-              <li className="px-2 py-2 font-SyneMono"><a href="#hotdogs">Hotdogs</a></li>
-              <li className="px-2 py-2 font-SyneMono"><a href="#carnes">Carnes</a></li>
-              <li className="px-2 py-2 font-SyneMono"><a href="#bebidas">Bebidas</a></li>
+            <ul className="text-1xl space-x-2 inline-flex flex-wrap text-yellow-500  rounded">
+              <li className="px-2 py-2 font-SyneMono hover:text-white "><a href="#entradas">Entradas</a></li>
+              <li className="px-2 py-2 font-SyneMono hover:text-white"><a href="#hamburguesas">Hamburguesas</a></li>
+              <li className="px-2 py-2 font-SyneMono hover:text-white"><a href="#combos">Combos</a></li>
+              <li className="px-2 py-2 font-SyneMono hover:text-white"><a href="#hotdogs">Hotdogs</a></li>
+              <li className="px-2 py-2 font-SyneMono hover:text-white"><a href="#carnes">Carnes</a></li>
+              <li className="px-2 py-2 font-SyneMono hover:text-white"><a href="#bebidas">Bebidas</a></li>
             </ul> 
           </div>
         </div>

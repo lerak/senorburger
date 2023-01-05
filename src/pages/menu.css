@@ -1,3 +1,4 @@
+
 .bgimage {
     position: relative;
     overflow: hidden;
@@ -17,4 +18,8 @@
 
 .mt-10{
   margin-top: 4rem;
+}
+
+ a:active{
+  color: rgba(211, 32, 32, 0.845)!important;
 }
