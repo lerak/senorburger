@@ -19,3 +19,7 @@
 .mt-10{
   margin-top: 4rem;
 }
+
+li a:active{
+  color: #fff;
+}

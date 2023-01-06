@@ -1,5 +1,5 @@
 import React from 'react'
-import burger from '../../images/hamburger-cheeseburger-veggie-burger-fast-food-burguer-d02a8de84e0ede0b8987bbe0f866487d.png'
+import burger from '../../images/burgers/6124271f-7ac9-40b7-b792-8c516fba53e7.jpg'
 
 import Carne from '../menu/carne'
 function Carnes(){
