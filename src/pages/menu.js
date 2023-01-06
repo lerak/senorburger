@@ -5,6 +5,7 @@ import Card from '../components/card'
 //import burger from '../images/BURGERBAR_campagne-website_BURGER_01.png'
 //import burger from '../images/rsz_img_3716.jpg'
 import Burgers from '../components/menu/burgers'
+import Extras from '../components/menu/extras'
 import Hotdogs from '../components/menu/hotdogs'
 import Combos from '../components/menu/combos'
 import Carnes from '../components/menu/carnes'
@@ -49,17 +50,7 @@ function MenuPage() {
         </div>
         {/* COMBOS */}
         <Combos />
-          <div>
-          <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Extras</h1>
-          <Card title="Extra tocino"  price="25"/>
-          <Card  title="Extra champiñones" price="15"/>
-          <Card title="Extra cebolla asada" price="15" />
-          <Card title="Extra Cebolla cruda" price="15" />
-          <Card title="Extra Piña" price="15" />
-          <Card title="Extra Queso Americano" price="10" />
-          <Card title="Extra Aguacate" price="20" />
-          <Card title="Orden de Guacamole" price="50" />
-          </div>
+          <Extras />
           {/* CARNES */}
           <Carnes />
         {/* BEBIDAS */}
