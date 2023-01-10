@@ -42,7 +42,6 @@ function IndexPage() {
         <p className="text-white">Las hamburguesas se preparan individualmente a pedido y se cocinan mientras espera.</p><p className="text-white"> Con solo sal marina molida y pimienta negra agregada a su hamburguesa, mientras está chisporroteando sobre la plancha.</p>
         
        </section>
-       Comenzando con los ingredientes naturales más frescos, comienza su experiencia Burgerbar. Bollos de hamburguesa horneados localmente, lechuga iceberg crujiente, rúcula, tomate y pepinillos en la hamburguesa que elijas
 
       </div>
       <section className="grid grid-cols-1 gap-4">
