@@ -2,7 +2,8 @@ import React from "react";
 import {Link} from "gatsby"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import floatingIMG from "../images/burgers/doblesmash.jpg"
+// import floatingIMG from "../images/burgers/doblesmash.jpg"
+import floatingIMG from "../images/frontpage/3e3df8ef-7351-4600-aae6-e0f426465222.jpg"
 //import floatingIMG from "../images/BURGERBAR_campagne-website_BURGER_01.png"
 import cow from "../images/burgers/hawaiiana.jpg"
 //import exampleburger from "../images/frontpage/gourmet-burgers-08dc989379929b29507ccff42c583bc0.png"
