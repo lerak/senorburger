@@ -11,8 +11,8 @@ function Bebidas(){
           <Bebida image={soda} title="Coca Cola Zero" price="40" />
           <Bebida image={soda} title="Mundet" price="40" /> 
           <Bebida image={soda} title="Peñafiel Limon" price="40" />
-          <Bebida image={soda} title="Agua Natural" price="25" />
-          {/* <Card image={soda} title="Agua Mineral" price="25" /> */}
+          <Bebida image={soda} title="Agua Mineral Peñafiel" price="35" />
+          <Bebida image={soda} title="Agua Natural" price="25" /> 
           <Bebida image={soda} title="Agua de Limon" price="45"/>
           <Bebida image={soda} title="Agua de Jamaica" price="45"/>
           <Bebida image={soda} title="Mojito sin Alcohol" price="55" />
