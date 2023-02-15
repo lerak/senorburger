@@ -17,6 +17,8 @@ function Burgers(){
     <div>
     <h1 id="hamburguesas" className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Burgers</h1>
   </div>
+  <p className='text-white'>¡Elige entre rúcula o lechuga en tu hamburguesa!</p>
+  <p className='text-white'>Choose between arugula or lettuce on your burger!</p>
 <Burger image={playa} title="Playa" description="Una hamburguesa de 180 gramos de carne 100% de res de la región sobre un pan Brioche fresco  con mayonesa, lechuga, tomate, queso y tocino, acompañada de papas fritas.
 " descriptionEN="A 180 gram beef patty with regional 100% ground beef on a freshly baked Brioche bun with mayonaise, lettuce, tomato, cheese, and bacon, accompanied by french fries.
 " price="129"/>
