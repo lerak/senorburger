@@ -51,8 +51,8 @@ function Burgers(){
     <Burger image={burger} title="Sandwich de Pollo" description="Una pieza de pollo a la cordón blue ,  con aguacate, lechuga y jitomate en Pan Brioche acompañado de papas" descriptionEN="Una pieza de pollo a la cordón blue ,  con aguacate, lechuga y jitomate en Pan Brioche acompañado de papas" price="159" />
 <div>
   <h1 className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Menu Infantil</h1>
-    <Burger image={burger} title="Playita" description="Una hamburguesa de 100 gramos de carne 100% de res de la región sobre un pan Brioche fresco con mayonesa, lechuga, tomate, queso y tocino, acompañada de papas fritas." descriptionEN="A 100 gram beef patty with regional 100% ground beef on a freshly baked Brioche bun with mayonaise, lettuce, tomato, cheese, and bacon, accompanied by french fries." price="99"/>
-    <Burger image={burger} title="Tropical" description="Una hamburguesa de 100 gramos de carne 100% de res de la región sobre un pan Brioche fresco con mayonesa, lechuga, tomate, queso, tocino y piña, acompañada de papas fritas." descriptionEN="A 100 gram beef patty with regional 100% ground beef on a freshly baked Brioche bun with mayonaise, lettuce, tomato, cheese, bacon and pinapple, accompanied by french fries." price="109"/>
+    <Burger image={burger} title="Playita" description="Una hamburguesa de 100 gramos de carne 100% de res de la región sobre un pan Brioche fresco con mayonesa, lechuga, tomate, queso y tocino, acompañada de papas fritas." descriptionEN="A 100 gram beef patty with regional 100% ground beef on a freshly baked Brioche bun with mayonaise, lettuce, tomato, cheese, and bacon, accompanied by french fries." price="109"/>
+    <Burger image={burger} title="Tropical" description="Una hamburguesa de 100 gramos de carne 100% de res de la región sobre un pan Brioche fresco con mayonesa, lechuga, tomate, queso, tocino y piña, acompañada de papas fritas." descriptionEN="A 100 gram beef patty with regional 100% ground beef on a freshly baked Brioche bun with mayonaise, lettuce, tomato, cheese, bacon and pinapple, accompanied by french fries." price="114"/>
   </div>
   </>
   )
