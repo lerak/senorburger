@@ -40,10 +40,6 @@ function MenuPage() {
           <h1 id="entradas"className="font-SyneMono text-5xl md:text-6xl text-center text-yellow-500">Entradas</h1>
         </div>
         <Card image={dedo} description="5 Dedos de queso con queso Mozzarella" descriptionEN="5 Cheese fingers with Mozzarella cheese" title="5 Dedos de Queso" price="110"/>
-        <Card description="1 Empanada Argentina" title="1 Empanada Argentina" price="45" />
-        <Card description="3 Empanadas Argentina" title="Empanadas Argentina" price="129" />
-        <Card description="4 Empanadas Argentina1" title="Empanadas Argentina" price="159" />
-       
           <Burgers />
           <Hotdogs />
         
