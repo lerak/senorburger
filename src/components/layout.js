@@ -30,7 +30,7 @@ function Layout({ children }) {
         <h3 className="font-bold text-white text-2xl">Contacto</h3>
             <hr  className="mb-4"/>
             <a href="https://goo.gl/maps/ANUdiKU2Bjqt8XR89" rel="nofollow"><img className="w-32 h-48" src={location} alt="Location"/></a>
-            <p className="text-white">Av. Solidaridad entre </p><p className="text-white">Av Misión del Carmen</p><p className="text-white"> local 6</p>
+            <p className="text-white">Calle 22 </p><p className="text-white">el Cuyo</p>
             <p className="text-white"><a href="tel:9841864986">tel. 984 186 4986</a></p>
             <button className="my-4 text-white bg-transparent font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"><a href="https://wa.me/529841864986"><FontAwesomeIcon icon={faWhatsapp} size="1x" /> Whatsapp</a></button>
           </div>
@@ -38,7 +38,7 @@ function Layout({ children }) {
             <div><a href="https://www.facebook.com/SenorBurgerPlayadelCarmen"><FontAwesomeIcon icon={faFacebook} size="3x" /></a></div>
             <div><a href="https://www.instagram.com/senorburgerplayadelcarmen"><FontAwesomeIcon icon={faInstagram} size="3x" /></a></div>
             {/* <div><a href="https://www.tripadvisor.com/Restaurant_Review-g150812-d23165679-Reviews-Senor_Burger-Playa_del_Carmen_Yucatan_Peninsula.html?m=19905"><FontAwesomeIcon icon={faTripadvisor} size="3x" /></a></div> */}
-            <div><a href="https://goo.gl/maps/ANUdiKU2Bjqt8XR89"><FontAwesomeIcon icon={faGoogle} size="3x" /></a></div>
+            <div><a href="https://goo.gl/maps/11Du5tqMXMtjGnSW6"><FontAwesomeIcon icon={faGoogle} size="3x" /></a></div>
           </div>
 
           <p>

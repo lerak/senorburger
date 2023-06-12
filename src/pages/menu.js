@@ -8,7 +8,7 @@ import Burgers from '../components/menu/burgers'
 import Extras from '../components/menu/extras'
 import Hotdogs from '../components/menu/hotdogs'
 import Combos from '../components/menu/combos'
-import Carnes from '../components/menu/carnes'
+// import Carnes from '../components/menu/carnes'
 import Bebidas from '../components/menu/bebidas'
 import Crepas from '../components/menu/crepas'
 import fries from '../images/burgers/papas.jpg'
@@ -30,7 +30,7 @@ function MenuPage() {
               <li className="px-2 py-2 font-SyneMono hover:text-white"><a href="#hamburguesas">Hamburguesas</a></li>
               <li className="px-2 py-2 font-SyneMono hover:text-white"><a href="#combos">Combos</a></li>
               <li className="px-2 py-2 font-SyneMono hover:text-white"><a href="#hotdogs">Hotdogs</a></li>
-              <li className="px-2 py-2 font-SyneMono hover:text-white"><a href="#carnes">Carnes</a></li>
+              {/* <li className="px-2 py-2 font-SyneMono hover:text-white"><a href="#carnes">Carnes</a></li> */}
               <li className="px-2 py-2 font-SyneMono hover:text-white"><a href="#crepas">Crepas</a></li>
               <li className="px-2 py-2 font-SyneMono hover:text-white"><a href="#bebidas">Bebidas</a></li>
             </ul> 
@@ -52,7 +52,7 @@ function MenuPage() {
         <Combos />
           <Extras />
           {/* CARNES */}
-          <Carnes />
+          {/* <Carnes /> */}
         {/* BEBIDAS */}
         <Crepas />
         <Bebidas />
