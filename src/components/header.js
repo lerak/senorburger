@@ -34,7 +34,7 @@ function Header() {
           </h1>
         </Link> */}
           <button className="mr-4 bg-transparent hover:bg-yellow-200 text-yellow-500 font-semibold hover:text-white py-2 px-4 border border-yellow-500 hover:border-transparent rounded">
-        <a href="tel:9841864986"><FontAwesomeIcon icon={faPhoneSquare} size="1x" /><em>  984 186 4986</em></a> 
+        <a href="tel:9861129452"><FontAwesomeIcon icon={faPhoneSquare} size="1x" /><em>  986 112 9452</em></a> 
           </button>
         
       
@@ -79,7 +79,7 @@ function Header() {
               {link.title}
             </Link>
           ))}
-           <a className="block mt-4 text-yellow-500 hover:text-white hover:scale-75 active:text-white no-underline md:inline-block md:mt-0 md:ml-6" href="https://api.whatsapp.com/send?phone=529841864986&text=Hola%2C%20me%20gustaria%20hacer%20un%20pedido.">Pedidos</a>
+           <a className="block mt-4 text-yellow-500 hover:text-white hover:scale-75 active:text-white no-underline md:inline-block md:mt-0 md:ml-6" href="https://api.whatsapp.com/send?phone=529861129452&text=Hola%2C%20me%20gustaria%20hacer%20un%20pedido.">Pedidos</a>
         </nav>
       </div>
     
