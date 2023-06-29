@@ -12,7 +12,7 @@ function PromoPage() {
           {/* <p className='font-SyneMono text-yellow-200 text-1xl md:t'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut consectetur quas eos unde, nostrum exercitationem ad non consequatur laudantium excepturi!</p> */}
         </div>
         <div>
-          <h2 className='font-SyneMono text-4xl md:text-4xl text-center text-white my-5'>Jueves</h2>
+          <h2 className='font-SyneMono text-4xl md:text-4xl text-center text-white my-5'>Miércoles</h2>
           <p className='font-SyneMono text-yellow-200 text-1xl md:t'>15% de descuento en todas las hamburguesas</p>
         </div>
       </div>
