@@ -17,13 +17,25 @@ function Burger(props){
           </div>
           <div className="c2 self-center ">
             <div className="invisible md:visible">
-              <h4 className=" text-2xl md:text-3xl  font-SyneMono text-white">{props.title}</h4>
+              <h4 className="text-2xl md:text-3xl font-SyneMono text-white">{props.title}</h4>
             </div>
             <p className="mb-5 font-SyneMono text-yellow-500 text-1xl md:text-2xl">{props.description}</p>
             <p className="font-SyneMono text-yellow-200 text-1xl md:text-2xl">{props.descriptionEN}</p>
-            <div className="self-center text-white text-1xl md:text-2xl">{props.price}</div>
-          </div>
-      </div>
+            <div className="self-center text-white text-1xl md:text-2xl">
+              {['Sandwich de Pollo', 'Smash Burger', 'Nohoch','Double Smash'].includes(props.title) ? 
+                <>{props.price}</> : 
+                <>
+                  <p className='text-yellow-500'>Tamaño Rey</p>
+                  {props.price}
+                  <p className="text-yellow-500">Mediano</p>
+                  {props.pricem}
+                </>
+              }
+            </div>
+</div>
+
+
+        </div>
     </div>
   )
 }
